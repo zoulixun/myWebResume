@@ -49,5 +49,5 @@ export default new Router({
 			component:WorkExperience
 		}	
   ],
-	mode:"history"
+	mode:"hash"
 })
