@@ -23,11 +23,11 @@
     {{ editem }}
   </div>
 </el-card>
-<div class="myCertificates" id="biye"><img src="../assets/myCertificates/biye.jpg" alt="毕业证"></div>
-<div class="myCertificates" id="cad"><img src="../assets/myCertificates/cad.jpg" alt="cad工程师证" title="照片太丑..."></div>
-<div class="myCertificates" id="cet4"><img src="../assets/myCertificates/cet4.jpg" alt="四级证" title="照片太丑..."></div>
-<div class="myCertificates" id="guoer"><img src="../assets/myCertificates/guoer.jpg" alt="国二证"></div>
-<div class="myCertificates" id="xuewei"><img src="../assets/myCertificates/xuewei.jpg" alt="学位证"></div>
+<div class="myCertificates" id="biye"><img src="../assets/biye.jpg" alt="毕业证"></div>
+<div class="myCertificates" id="cad"><img src="../assets/cad.jpg" alt="cad工程师证" title="照片太丑..."></div>
+<div class="myCertificates" id="cet4"><img src="../assets/cet4.jpg" alt="四级证" title="照片太丑..."></div>
+<div class="myCertificates" id="guoer"><img src="../assets/guoer.jpg" alt="国二证"></div>
+<div class="myCertificates" id="xuewei"><img src="../assets/xuewei.jpg" alt="学位证"></div>
   </div>
 </template>
 
