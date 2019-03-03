@@ -87,7 +87,7 @@
 	border-radius: 10px;
   }
   .myCarousel{
-	  margin-top: 200px;
+	  margin-top: 15%;
   }
   .projectExperience{
 	  width: 100%;

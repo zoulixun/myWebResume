@@ -43,7 +43,7 @@ export default new Router({
 			name:'ProjectExperience',
 			component:ProjectExperience
 		},
-				{
+		{
 			path:'/WorkExperience',
 			name:'WorkExperience',
 			component:WorkExperience

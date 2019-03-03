@@ -22,10 +22,11 @@
   <div v-for="myInitem in messageArray" :key="myInitem" class="text item">
     {{ myInitem }}
   </div>
+	<img src="../../static/images/myPhoto.png" width="120" alt="我的照片">
 </el-card>
-<div class="myPhoto">
-	
-</div>
+<!-- <div class="myPhoto"> -->
+		<!-- <img src="../../static/images/myPhoto.png" width="120" alt="我的照片"> -->
+<!-- </div> -->
 
   </div>
 </template>
@@ -76,13 +77,16 @@
     clear: both
   }
   .box-card {	
-    width: 800px;
+	position: relative;
+  width: 800px;
+	max-width: 80%;
+	height: auto;
 	margin: 0 auto;
-	margin-top: 200px;
+	margin-top: 12%;
 	background: rgba(255, 255, 255, 0.1);
 	color: #CCCCCC;
   }
-  .myPhoto{
+  /* .myPhoto{
 	  width: 140px;
 	  height: 180px; 
 	  border-radius:10px;
@@ -91,7 +95,17 @@
 	  position: absolute;
 	  top: 41%;
 	  left:55%;	  
-  }
+  } */
+	img{
+		display: block;
+		border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+		position: absolute;
+		left: 60%;
+		top:35%;	
+		
+	}
   .myInfo{
 	  width: 100%;
 	  height: 960px;

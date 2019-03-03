@@ -23,11 +23,11 @@
     {{ editem }}
   </div>
 </el-card>
-<div class="myCertificates" id="biye"><img src="../../static/images/biye.jpg"></div>
-<div class="myCertificates" id="cad"><img src="../../static/images/cad.jpg" alt="cad工程师证" title="照片太丑..."></div>
-<div class="myCertificates" id="cet4"><img src="../../static/images/cet4.jpg" alt="四级证" title="照片太丑..."></div>
-<div class="myCertificates" id="guoer"><img src="../../static/images/guoer.jpg" alt="国二证"></div>
-<div class="myCertificates" id="xuewei"><img src="../../static/images/xuewei.jpg" alt="学位证"></div>
+<img id="biye" src="../../static/images/biye.jpg" width="300" height="" >
+<img id="cad" src="../../static/images/cad.jpg" width="300"  alt="cad工程师证" title="照片太丑...">
+<img id="cet4" src="../../static/images/cet4.jpg" width="350"  alt="四级证" title="照片太丑...">
+<img id="guoer" src="../../static/images/guoer.jpg" width="400"  alt="国二证">
+<img id="xuewei" src="../../static/images/xuewei.jpg" width="300"  alt="学位证">
   </div>
 </template>
 
@@ -74,51 +74,55 @@
     clear: both
   }
   .box-card {
-   width: 800px;
+  width: 800px;
 	margin: 0 auto;
 	margin-top: 200px;
 	background: rgba(255, 255, 255, 0.1);
 	color: #CCCCCC;
   }
-	 .myCertificates>img{
-		  width: 350px;
-		  height: 350px;
-		  border-radius: 8px;
+	img{
+		display:block;
+		max-width: 100%;
+		height: auto;
+		position: absolute;	
+		border-radius: 8px;
 	}
 	#biye{
-		  position: absolute;
-		  top:15%;
-		  left:4%;
-		  transform:rotate(275deg);
-		  -ms-transform:rotate(275deg); /* IE 9 */
-		  -webkit-transform:rotate(275deg); /* Safari and Chrome */
+		top:10%;
+		left:7%;
+		transform:rotate(275deg);
+		-ms-transform:rotate(275deg); /* IE 9 */
+		-webkit-transform:rotate(275deg); /* Safari and Chrome */
 	}
 	#xuewei{
-		position: absolute;
-		top:15%;
-		left:75%;  
-		 transform:rotate(260deg);
+		top:10%;
+		left:77%;  
+		transform:rotate(260deg);
 		-ms-transform:rotate(260deg); /* IE 9 */
 		-webkit-transform:rotate(260deg); /* Safari and Chrome */
 	}
 	#cad{
-		  position: absolute;
-		  top:60%;
-		  left:10%;
+		top:52%;
+		left:10%;
+		transform:rotate(-50deg);
+		-ms-transform:rotate(-50deg); /* IE 9 */
+		-webkit-transform:rotate(-50deg); /* Safari and Chrome */
 	}
 		  
 	#cet4{
-		  position: absolute;
-		  top:60%;
-		  left:40%;
-		   transform:rotate(90deg);
-		  -ms-transform:rotate(90deg); /* IE 9 */
-		  -webkit-transform:rotate(90deg); /* Safari and Chrome */
+		top:65%;
+		left:40%;
+		transform:rotate(90deg);
+		-ms-transform:rotate(90deg); /* IE 9 */
+		-webkit-transform:rotate(90deg); /* Safari and Chrome */
+
 	}
 	#guoer{
-		  position: absolute;
-		  top:60%;
-		  left:70%;
+		top:60%;
+		left:70%;
+		transform:rotate(20deg);
+		-ms-transform:rotate(20deg); /* IE 9 */
+		-webkit-transform:rotate(20deg); /* Safari and Chrome */
 	}
 	.educationAndCertificate{
 		width: 100%;

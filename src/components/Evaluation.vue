@@ -66,9 +66,12 @@
   }
   .box-card {
 	  color: black !important;
+		position: relative;
+		max-width: 80%;
+		height: auto;
     width: 800px;
 	margin: 0 auto;
-	margin-top: 250px;
+	margin-top: 15%;
 	background: rgba(255, 255, 255, 0.1);
 	color: #CCCCCC;
   }

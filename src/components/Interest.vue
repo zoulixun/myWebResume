@@ -68,9 +68,12 @@
     clear: both
   }
   .box-card {
+		position: relative;
+		max-width: 80%;
+		height: auto;
     width: 800px;
 	margin: 0 auto;
-	margin-top: 300px;
+	margin-top: 15%;
 	box-shadow: 10px 10px 5px #888888;
 	background: rgba(255, 255, 255, 0.2);
   }
