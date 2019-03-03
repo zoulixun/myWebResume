@@ -23,11 +23,11 @@
     {{ editem }}
   </div>
 </el-card>
-<div class="myCertificates" id="biye"><img src="../assets/biye.jpg" alt="毕业证"></div>
-<div class="myCertificates" id="cad"><img src="../assets/cad.jpg" alt="cad工程师证" title="照片太丑..."></div>
-<div class="myCertificates" id="cet4"><img src="../assets/cet4.jpg" alt="四级证" title="照片太丑..."></div>
-<div class="myCertificates" id="guoer"><img src="../assets/guoer.jpg" alt="国二证"></div>
-<div class="myCertificates" id="xuewei"><img src="../assets/xuewei.jpg" alt="学位证"></div>
+<div class="myCertificates" id="biye"><img src="../../static/images/biye.jpg"></div>
+<div class="myCertificates" id="cad"><img src="../../static/images/cad.jpg" alt="cad工程师证" title="照片太丑..."></div>
+<div class="myCertificates" id="cet4"><img src="../../static/images/cet4.jpg" alt="四级证" title="照片太丑..."></div>
+<div class="myCertificates" id="guoer"><img src="../../static/images/guoer.jpg" alt="国二证"></div>
+<div class="myCertificates" id="xuewei"><img src="../../static/images/xuewei.jpg" alt="学位证"></div>
   </div>
 </template>
 
@@ -36,9 +36,9 @@
 	  name:'EducationAndCertificate',
     data() {
       return {
-       activeIndex: '2',
-       activeIndex2: '2',
-	   messageArray:[
+      activeIndex: '2',
+      activeIndex2: '2',
+			messageArray:[
 		   "2012.09-2016.06   黑龙江工程学院   交通运输（四年制统招本科）",
 		   "大学英语四级证书",
 		   "全国二维CAD应用工程师证书",
