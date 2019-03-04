@@ -15,7 +15,6 @@
 	  <el-menu-item index="5"><router-link to="/Interest">兴趣爱好</router-link></el-menu-item>
 	  <el-menu-item index="6"><router-link to="/Evaluation">自我评价</router-link></el-menu-item>
 	</el-menu>
-	<div class="mainBack">
 <div class="outCircle">
 			<div id="js" class="innerCircle a1">Javascript</div>
 			<div id="css" class="innerCircle a2">Git</div>
@@ -28,7 +27,6 @@
 			<div id="elementui" class="innerCircle a3">Element-UI</div>
 			<div id="ajax" class="innerCircle a1">Ajax</div>
 			<div id="axios" class="innerCircle a2">Axios</div>			
-		</div>
 	</div>
   </div>
 </template>
@@ -52,10 +50,12 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.mainBack{
+.main{
 		width: 100%;
 		height: 960px;
-		text-align: center;
+		background: url(../assets/bijiben.jpg);
+		background-size: 100% 100%;
+		
 }
 .outCircle{
 				width: 800px;
@@ -220,10 +220,4 @@ export default {
 	75%  {width: 95px;height: 95px;}
 	100% {width: 100px;height: 100px;}
 }
-.main{
-	 width: 100%;
-	height: 960px;
-	background: url(../assets/bijiben.jpg);
-	background-size: 100% 100%;
-	}
 </style>
