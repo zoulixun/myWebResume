@@ -49,7 +49,7 @@
 		  "environment":"开发环境:  Windows7/Windows10、Google Chrome",
 		  "tools":"开发工具: HBuilderX、EditPlus、Google Chrome",
 		  "proIntro":"",
-		  "detail":"项目详情: 该项目严格遵循了W3C规范并应用了Html5标准,使用Webpack+Vue.js+Element-UI作为基础框架,并应用了vue-router与Axios实现页面的跳转与数据的请求和发送。该项目前端所有编码任务由我独自完成。"
+		  "detail":"项目详情: 该项目严格遵循了W3C规范并应用了Html5标准,使用Webpack+Vue.js+Element-UI作为基础框架,并应用了vue-router与axios实现了页面的跳转与数据的请求和发送。该项目前端所有编码任务由我独自完成。"
 		  }	  
 		]
 	  }

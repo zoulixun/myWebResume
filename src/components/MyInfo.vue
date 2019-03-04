@@ -104,6 +104,7 @@
 		position: absolute;
 		left: 60%;
 		top:35%;	
+		margin-left: 2%;
 		
 	}
   .myInfo{

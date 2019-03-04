@@ -18,14 +18,14 @@
 	<div class="mainBack">
 <div class="outCircle">
 			<div id="js" class="innerCircle a1">Javascript</div>
-			<div id="css" class="innerCircle a2">css</div>
-			<div id="css3" class="innerCircle a3">css3</div>
-			<div id="html" class="innerCircle a1">html</div>
-			<div id="html5" class="innerCircle a2">html5</div>
+			<div id="css" class="innerCircle a2">Git</div>
+			<div id="css3" class="innerCircle a3">Css(3)</div>
+			<div id="html" class="innerCircle a1">Webpack</div>
+			<div id="html5" class="innerCircle a2">Html(5)</div>
 			<div id="jQuery" class="innerCircle a3">jQuery</div>
-			<div id="Bootstrap" class="innerCircle a1">Bootstrap</div>
+			<div id="Bootstrap" class="innerCircle a1">BootStrap</div>
 			<div id="Vue" class="innerCircle a2">Vue.js</div>
-			<div id="elementui" class="innerCircle a3">Element</div>
+			<div id="elementui" class="innerCircle a3">Element-UI</div>
 			<div id="ajax" class="innerCircle a1">Ajax</div>
 			<div id="axios" class="innerCircle a2">Axios</div>			
 		</div>
@@ -62,6 +62,7 @@ export default {
 				height: 800px;
 				/* border: 1px solid black; */
 				margin: 0 auto;
+				margin-top: 5%;
 				position: relative;
 			}
 			.innerCircle{
@@ -219,4 +220,10 @@ export default {
 	75%  {width: 95px;height: 95px;}
 	100% {width: 100px;height: 100px;}
 }
+.main{
+	 width: 100%;
+	height: 960px;
+	background: url(../assets/bijiben.jpg);
+	background-size: 100% 100%;
+	}
 </style>
