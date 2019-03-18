@@ -34,7 +34,7 @@
        activeIndex: '6',
        activeIndex2: '6',
 	   messageArray:[
-		   "1年Web前端开发经验，擅于快速绘制网站原型图，html(5) 、css(3)、 ES5基础掌握牢固，理解并掌握W3C标准，掌握jQuery、BootStrap、Vue.js2.0、Element UI前端开发框架,掌握Webpack打包工具,掌握Git版本控制管理工具，对Vuex有一定的了解。"	   
+		   "1年Web前端开发经验，擅于快速绘制网站原型图，精通html（5)，css（3）以及div+css布局方式，精通jQuery，ES5基础掌握牢固，掌握ES6常用语法, 掌握Vue.js、Bootstrap、Element UI框架的使用，掌握Axios，掌握Git版本控制管理工具的使用，对Webpack模块打包工具、Sass预处理器、Vuex有一定的了解。"	   
 	   ]
       }
     }, 

@@ -39,17 +39,17 @@
 	   proMessage:[
 		  {
 		  "title":"一．工程师协助系统",
-		  "environment":"开发环境:  Windows7/Windows10、Google Chrome",
-		  "tools":"开发工具: HBuilderX、EditPlus、Google Chrome",
-		  "proIntro":"",
-		  "detail":"项目详情: 该项目严格遵循了W3C规范并应用了Html5标准,页面结构与样式使用DIV+CSS手写,未使用任何开源UI框架。在与后台进行数据交换时应用了jQuery Ajax API,数据格式采用了Json,动态数据显示以及逻辑行为处理使用了jQuery框架。该项目前端所有编码任务由我独自完成。"
+		  "environment":"技术栈:  Html5，DIV+CSS， jQuery，Bootstrap，Ajax，Fontawsome",
+		  "tools":"开发工具:HBuilderX， EditPlus， Eclipse， Google Chrome DevTools",
+		  "proIntro":"项目描述: 建筑工程师可以随时提交工作中遇到的软硬件问题到该系统，支持文字描述，图片上传，word/excel文档上传方式，被提交的问题全员可见，问题主要交由信息部成员解决，其他公司员工也具有回答权限，同时，评选年度优秀员工时对于积极主动回答问题的员工会有加分机制，大大提升了工作效率，目前该系统仅为公司内部使用，以后可能会考虑商用。",
+		  "detail":"项目详情: 该项目严格遵循了W3C规范并应用了Html5标准,使用了Bootstrap+jQuery作为前端框架。在与后台进行数据对接时应用了jQuery Ajax技术，数据传输格式一律采用了Json格式，动态数据显示以及逻辑行为处理使用了jQuery。该项目前端所有编码任务由我独自完成。"
 		  },
 		  {
 		  "title":"二．数字蓝图系统",
-		  "environment":"开发环境:  Windows7/Windows10、Google Chrome",
-		  "tools":"开发工具: HBuilderX、EditPlus、Google Chrome",
-		  "proIntro":"",
-		  "detail":"项目详情: 该项目严格遵循了W3C规范并应用了Html5标准,使用Webpack+Vue.js+Element-UI作为基础框架,并应用了vue-router与axios实现了页面的跳转与数据的请求和发送。该项目前端所有编码任务由我独自完成。"
+		  "environment":"技术栈:  Html5， DIV+CSS， Vue.js ，ElementUI， Axios，Fontawsome",
+		  "tools":"开发工具: HBuilderX， EditPlus， Eclipse， Google Chrome DevTools",
+		  "proIntro":"项目描述: 建筑工程项目经理将已完成项目的CAD图纸提交到该系统，通过该系统将图纸成批次的发送给合作打印社打印出图。图纸上传到该系统时，会经过在线图纸检查（PDF版本）---图纸审核（PDF版本）---打印管理这三个过程，通过该系统很大程度上提升了工程师的检图，挑图，替图的工作效率，并且节约了纸张成本，目前该系统仅为公司内部使用，以后可能会考虑商用。",
+		  "detail":"项目详情: 该项目严格遵循了W3C规范并应用了Html5标准,使用了vue+vue-router+element-UI作为前端框架,在与后台进行数据对接时应用了Axios技术，数据传输格式一律采用了Json格式。该项目包括vue-cli项目搭建以及所有编码任务由我独自完成。"
 		  }	  
 		]
 	  }
